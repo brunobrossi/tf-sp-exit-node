@@ -1,0 +1,11 @@
+tenancy_ocid                  = "ocid1.tenancy.oc1....."
+user_ocid                     = "ocid1.user.oc1....."
+compartment_id                = "ocid1.tenancy.oc1....."  # same as tenancy for root compartment
+fingerprint                   = "xx:xx:xx:..."
+private_key_path              = "~/.oci/oci_api_key.pem"
+availability_domain           = "Uocm:SA-SAOPAULO-1-AD-1"
+ssh_public_key                = "ssh-rsa AAAA..."         # OCI requires one; access is via Tailscale SSH
+shape                         = "VM.Standard.E2.1.Micro"  # optional, this is the default. Use VM.Standard.A1.Flex for ARM, if capacity allows
+hostname                      = "brasil"                  # optional, this is the default
+tailscale_oauth_client_id     = "k..."
+tailscale_oauth_client_secret = "tskey-client-..."

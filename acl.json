@@ -12,7 +12,7 @@
     }
   ],
   "tagOwners": {
-    "tag:exit-node": []
+    "tag:exit-node": ["autogroup:admin"]
   },
   "autoApprovers": {
     "exitNode": [
