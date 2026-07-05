@@ -12,7 +12,8 @@
     }
   ],
   "tagOwners": {
-    "tag:exit-node": ["autogroup:admin"]
+    "tag:exit-node": ["autogroup:admin"],
+    "tag:home-server": ["autogroup:admin"]
   },
   "autoApprovers": {
     "exitNode": [
